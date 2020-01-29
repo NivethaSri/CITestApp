@@ -15,7 +15,7 @@ node {
         ])
 
         // Build and Test
-        sh 'xcodebuild -scheme "CITestProject" -configuration "Debug" build test -destination "platform=iOS Simulator,name=iPhone 6,OS=10.1" -enableCodeCoverage YES '
+        sh 'xcodebuild -scheme "CITestProject" -configuration "Debug" build test -destination "platform=iOS Simulator,name=iPad (7th generation),OS=13.3" -enableCodeCoverage YES '
 
         // Publish test restults.
     }
