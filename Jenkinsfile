@@ -1,6 +1,6 @@
 node {
 
-    stage {
+    stage('Checkout') {
 
         // Checkout files.
         checkout([
